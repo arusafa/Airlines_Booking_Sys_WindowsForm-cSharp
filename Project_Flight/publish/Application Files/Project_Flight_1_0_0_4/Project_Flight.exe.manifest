@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Project_Flight.exe" version="1.0.0.4" publicKeyToken="262a66f25ee346b5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Project_Flight" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Project_Flight.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Project_Flight.exe" size="1036696">
+      <assemblyIdentity name="Project_Flight" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>x8fjIoa2Jtbh/pdvfIKwWqemyhwNPZTKDywTw8+dmCk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GBC_AirlinesDB.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yajb8SLTbb+ZhLi08KfBL21CNaK66PXhb9PnyB/aYqY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GBC_AirlinesDB_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dINXAFQ+o2MSslr4QUlWothKsk8l5dFtSuIytaKvXUo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Project_Flight.exe.config" size="569">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oT2d479rizg3RRlXYUMQmRw9IjwmRPDHq9SedIkPyK4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MSI\arusa" issuerKeyHash="b050acb0c8f6c95087240da2726d8b5a029ad23f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9GDBe8/e7HW8/mrpfEIcn3NnYpDnIGFrBd5D/ta8L50=</DigestValue></Reference></SignedInfo><SignatureValue>D83FlxKhT47vJh9OCMTiF25+RlutD9RCNGrXR7PiuCW0paWoepANcRVisuKHw2ZwzlLVHvnE97YL17pWfbUMolVAwHwBc3V/9RD07nZFlKpPmPJZQ3D2yo/v0S1oKnPJAZ25DbNKgEozO0wxWq++/OMxPq5+Q/HH9HxASQlncts=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q3qBokaLQcNs5mGxJTxyvorH3zDBV85W/yhpj0+S//20NKcK//SW12SCU3D9FYNta7bnPRf2LZ+I/ZiGeAQq8yMAzrKiHd/bt4B51TlUhkOgEKljC4FVQBwkQkkkrkHxCefr5miuoiBm6r8ItfNJDHO1pxq8KfGt+cYI5+Dn/mk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9d2fbcd6fe43de056b6120e7906267739f1c427ce96afebc75ecdecf7bc160f4" Description="" Url=""><as:assemblyIdentity name="Project_Flight.exe" version="1.0.0.4" publicKeyToken="262a66f25ee346b5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MSI\arusa</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sw9yehL2hT/0f+L4yNp0zNXUQbr0tR8/evsxoP7i1LM=</DigestValue></Reference></SignedInfo><SignatureValue>BZLj3YlGlOw/uXkk1oS/qjEzLHNTS+gQjfRSsXkSiTb9eGU3/O+gd7VtqQBzvElugngFpR5okzLLF8yZytqbNtmRXjEvurr76i1X8qeCiIm7F1t9HPiLdJe7HFDb17W5BA4Ym1OQEL6TjqcTTWwvqulkzbOuR4ODlwNakndvfo4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q3qBokaLQcNs5mGxJTxyvorH3zDBV85W/yhpj0+S//20NKcK//SW12SCU3D9FYNta7bnPRf2LZ+I/ZiGeAQq8yMAzrKiHd/bt4B51TlUhkOgEKljC4FVQBwkQkkkrkHxCefr5miuoiBm6r8ItfNJDHO1pxq8KfGt+cYI5+Dn/mk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQOuWvESoYqpJG1uuBYvCajTANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATQBTAEkAXABhAHIAdQBzAGEwHhcNMjExMTI5MDI0MTI0WhcNMjIxMTI5MDg0MTI0WjAdMRswGQYDVQQDHhIATQBTAEkAXABhAHIAdQBzAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKt6gaJGi0HDbOZhsSU8cr6Kx98wwVfOVv8oaY9Pkv/9tDSnCv/0ltdkglNw/RWDbWu25z0X9i2fiP2YhngEKvMjAM6yoh3f27eAedU5VIZDoBCpYwuBVUAcJEJJJK5B8Qnn6+ZorqIgZuq/CLXzSQxztacavCnxrfnGCOfg5/5pAgMBAAEwDQYJKoZIhvcNAQELBQADgYEACxY/V1aVEm8C0WAbSAOajRT4LG7OmIQW4zlai/ffRKuAldGNsTL7XhjMRqR3Eeef+mRGRrG877ZJCLVC5q485LMgzMSFuYQko91yMz6nxxMWflJ5xtoT5VAjIlj2IDvNmLaoig3oyp5ucO23kYGNzn1dDeIwkTCvSsaoVn28x9A=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
